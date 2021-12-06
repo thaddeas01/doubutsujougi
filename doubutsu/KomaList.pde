@@ -18,11 +18,8 @@ class KomaList {
       k.draw();
     }
   }
-}
-<<<<<<< HEAD
-=======
 
-  AbstractKoma getSelectedKoma() {
+    AbstractKoma getSelectedKoma() {
     for (AbstractKoma k : komaArray) {
       if (k.kStat.selected) return k;
     }
@@ -40,4 +37,4 @@ class KomaList {
     }
     return null;
   }
->>>>>>> add_mochigoma_area
+}
